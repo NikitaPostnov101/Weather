@@ -21,7 +21,6 @@ def get_weather():
         messagebox.showerror('Error', 'Connection Error.')
 
 
-# Создание графического интерфейса
 root = tk.Tk()
 root.title('Weather App')
 root.geometry('300x200')
